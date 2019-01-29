@@ -23,9 +23,6 @@ import seaborn as sns
  
 #configure
 # sets matplotlib to inline and displays graphs below the corressponding cell.
-%matplotlib inline  
-style.use('fivethirtyeight')
-sns.set(style='whitegrid',color_codes=True)
 
 #model selection
 from sklearn.model_selection import train_test_split
